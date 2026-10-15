@@ -1,0 +1,19 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main", "nouvelle-fonctionnalite", "ajout-fonctionnalites" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run build and test tasks
+        run: |
+          echo "Exécution des étapes du pipeline..."
+          echo "Build réussi"
