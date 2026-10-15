@@ -1,1 +1,2 @@
 TP Github"Nouvelle fonctionnalit‚ ajout‚e." 
+"R‚sum‚ : Ajout de fonctionnalite1 et fonctionnalite2." 
